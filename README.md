@@ -87,3 +87,9 @@ The project achieves an accuracy of approximately 85% in classifying financial t
 
 ## Contributing
 Contributions to this project are welcome! If you have any suggestions, bug reports, or feature
+
+## License
+
+This project is licensed under the MIT License.
+
+Feel free to modify and adapt the README file according to your project's specific details and requirements.
