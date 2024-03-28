@@ -53,6 +53,8 @@ To train the model on your own data and achieve better results, follow these ste
    - Save the trained model weights using the `torch.save()` function.
    - Make sure to include this file (`model_weights.pth`) in your project directory.
 
+PS: Rememeber to make sure your dataset has a balanced set of transactions across various types. Else the fine-tuned model will be biased and will have accuracy issues. 
+
 ## API Endpoint
 The project provides a RESTful API endpoint that accepts POST requests at `/predict`. The request should contain a JSON object with the following structure:
 
@@ -93,3 +95,6 @@ Contributions to this project are welcome! If you have any suggestions, bug repo
 This project is licensed under the MIT License.
 
 Feel free to modify and adapt the README file according to your project's specific details and requirements.
+
+## Future Roadmap
+This project also evaluated the possibility of using embedding models for the purpose of classification. We used https://huggingface.co/thenlper/gte-large and the results were not at all satisfactory. Further evalaution of other embeddings are needed to understand the true potential of uing such embedding models.
